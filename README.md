@@ -1,44 +1,47 @@
-# Student Marks Prediction using Machine Learning
+# 🎓 Student Marks Prediction using Machine Learning
 
-## About the Project
-This project predicts student marks based on the number of hours they study using Linear Regression.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://debut-project-nnajdyhbuappuncwhlnh2u.streamlit.app/)
 
-## Technologies Used
+## 🚀 Live Application
+Try the application here: **[Student Marks Predictor](https://debut-project-nnajdyhbuappuncwhlnh2u.streamlit.app/)**
+
+## 📌 About
+An interactive Machine Learning application that predicts student marks based on study hours using Linear Regression.
+
+## 🛠️ Technologies
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-learn
+- Streamlit
 
-## Dataset
-The dataset contains:
-- Study Hours
-- Student Marks
+## ✨ Features
+- Predict marks based on study hours.
+- Interactive input slider.
+- Machine Learning predictions.
+- Actual vs predicted visualization.
+- Dataset preview.
 
-## Machine Learning Algorithm
+## 🧠 Algorithm
 Linear Regression
 
-## Features
-- Data loading and preprocessing
-- Model training
-- Marks prediction
-- Model evaluation
-- Data visualization
-
-## Installation
-
-Install the required libraries:
-
+## ▶️ Run Locally
+```bash
 pip install -r requirements.txt
+streamlit run app.py
+```
 
-## Run the Project
+## 📁 Project Structure
+```text
+Debut-project/
+├── app.py
+├── requirements.txt
+├── README.md
+├── data/
+├── src/
+└── images/
+```
 
-python src/predict.py
-
-## Future Improvements
-- Add a web interface using Streamlit
-- Use a larger student dataset
-- Compare multiple ML algorithms
-
-## Author
-My First AI Project
+## 👨‍💻 Author
+Rufus Jones G.
