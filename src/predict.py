@@ -44,4 +44,10 @@ plt.xlabel("Study Hours")
 plt.ylabel("Marks")
 plt.title("Student Marks Prediction")
 plt.legend()
-plt.show()
+plt.savefig(
+    "images/student_prediction.png",
+    dpi=300,
+    bbox_inches="tight"
+)
+
+print("Graph saved successfully!")
